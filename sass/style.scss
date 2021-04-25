@@ -183,13 +183,12 @@ figure {
     position: relative;
 }
 #colorlib-aside {
-	padding-top: 3em;
-	padding-bottom: 40px;
+	padding-top: 2em;
+	
 	float: left;
 
 	width: 300px;
 	position: fixed;
-	overflow-y: scroll;
 	z-index: 1001;
 	background: $brand-gray;
 	@include transition(.5s);
